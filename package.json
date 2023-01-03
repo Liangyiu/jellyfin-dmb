@@ -1,0 +1,31 @@
+{
+  "name": "jellyfin-dmb",
+  "version": "1.0.0",
+  "description": "A Jellyfin Discord Music Bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liangyiu/jellyfin-dmb.git"
+  },
+  "keywords": [
+    "discord",
+    "jellyfin",
+    "music",
+    "bot"
+  ],
+  "author": "Liangyiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Liangyiu/jellyfin-dmb/issues"
+  },
+  "homepage": "https://github.com/Liangyiu/jellyfin-dmb#readme",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^14.7.1",
+    "typescript": "^4.9.4"
+  }
+}
